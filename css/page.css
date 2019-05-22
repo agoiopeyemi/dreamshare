@@ -1,0 +1,919 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, 
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    background: #fff;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* =========================
+    main header styles
+   =========================*/
+.main-header {
+    background-image: url(../img/Bitmap.png); 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(../img/Bitmap.png);
+    background-size: cover;
+    padding: 20px 15px 70px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.login-signup {
+   
+    margin-bottom: 90px;
+}
+.login-signup a {
+    color: #fff;
+    font-size: 12px;
+}
+.signup {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.main-heading {
+    margin-bottom: 70px;
+  
+    font-weight: bold;
+}
+.dream-share {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: normal;
+    width: 80%;
+    margin: 0 auto;
+}
+.heading-content {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgb(216, 211, 210);
+    margin-bottom: 10px;
+}
+.btn {
+    border: 1px solid #FF4E50;
+    background: #FF4E50;
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* ===========================
+    main content one styles
+   ===========================*/
+.main-content-one {
+    padding: 5px;
+}
+.content-one-heading {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444444;
+    
+}
+.content-box1 {
+    background-image: url(../img/Step-1-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    text-align: left;
+    padding: 50px 15px 10px;
+    margin-bottom: 5px;
+}
+.step-one {
+    background: #FF4E50;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #FF4E50;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.step-one-heading {
+    width: 80%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+.step-one-content {
+    color: #E3E3E3;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    
+}
+.content-box2 {
+    background: url(../img/Step-1-image\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    text-align: left;
+    padding: 100px 15px 10px;
+    margin-bottom: 5px;
+}
+.step-two {
+    background: #FF4E50;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #FF4E50;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.step-two-heading {
+    width: 80%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 12px;
+    margin-bottom: 30px;
+}
+.step-two-content {
+    color: #E3E3E3;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+   
+}
+.content-box3 {
+    background-image: url(../img/Step-1-image\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    text-align: left;
+    padding: 50px 15px 10px;
+    margin-bottom: 20px;
+}
+.step-three {
+    background: #FF4E50;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #FF4E50;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.step-three-heading {
+    width: 80%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+.step-three-content {
+    color: #E3E3E3;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    
+}
+
+/* ============================
+    main content two styles
+   ============================*/
+.main-content-two {
+    padding: 5px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.content-two-heading {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    width: 80%;
+    margin: 0 auto 10px;;
+}
+.socials {
+    width: 80%;
+    margin: 0 auto;
+}
+.bradley-hunter, 
+.diana-wells, 
+.marie-bennett, 
+.christopher-pierce {
+    margin-bottom: 40px;
+}
+.bradley-hunter-img, 
+.diana-wells-img, 
+.marie-bennett-img, 
+.christopher-pierce-img {
+    position: relative;
+}
+.bradley-img, 
+.diana-img, 
+.marie-img, 
+.chris-img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+.music, 
+.camera, 
+.brush, 
+.plane {
+    background: #FF4E50;
+    padding: 5px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+}
+.name-brad, 
+.name-diana, 
+.name-marie, 
+.name-chris {
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.brad-bio, 
+.diana-bio, 
+.marie-bio,
+.chris-bio {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: #666666;
+    
+}
+.camera {
+    background: #FFA710;
+}
+.brush {
+    background: #19D4CA;
+}
+.plane {
+    background: #667DF3;
+}
+.christopher-pierce {
+    margin-bottom: 30px;
+}
+.main-content2-btn {
+    border: 1px solid #FF4E50;
+    color: #FF4E50;
+    font-size: 11px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 5px 40px;
+    
+}
+
+/* ==============================
+    main content three styles
+   ==============================*/
+.main-content-three {
+    
+    padding: 10px;
+}
+.content-three-heading {
+    color: #444444;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.content-three-box1,
+.content-three-box2, 
+.content-three-box3, 
+.content-three-box4, 
+.content-three-box5, 
+.content-three-box6, 
+.content-three-box7 {
+    background: url(../img/Sport.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 80px;
+}
+.sport {
+    width: 60%;
+}
+.wellness, 
+.extreme {
+    width: 70%;
+}
+.enjomet, 
+.culture {
+    width: 100%;
+}
+.content-three-box2 {
+    background: url(../img/Healath.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.content-three-box3 {
+    background: url(../img/Extreme.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.content-three-box4 {
+    background: url(../img/Games.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.content-three-box5 {
+    background: url(../img/Culture.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.content-three-box6 {
+    background: url(../img/Sport.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.content-three-box7 {
+    background: url(../img/Games\ Copy.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+
+/* =====================
+    page aside styles
+   =====================*/
+.page-aside {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.aside-heading {
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    line-height: normal;
+    width: 70%;
+    margin: 0 auto 15px;
+}
+.aside-content {
+    font-size: 12px;
+    color: #666666;
+    font-weight: 300;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+.user-interest {
+    color: #999999;
+    font-size: 9px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border: 1px solid #D4D4D4;
+    background: #fff;
+    border-radius: 3px;
+    width: 90%;
+    margin-bottom: 7px;
+}
+.aside-btn {
+    background: #FF4E50;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: normal;
+    border: 1px solid #FF4E50;
+    border-radius: 40px;
+    padding: 8px 45px; 
+}
+
+
+
+/*          footer styles  
+        ======================= */
+
+.container-footer {
+    border-top: 2px solid #FF4E50;
+    padding: 10px;
+}
+.main-footer {
+    
+    
+    font-size: 14px;
+}
+.footer-main-heading {
+    color: #FF4E50;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+}
+.footer-heading {
+    color: #444444;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    
+}
+.nav {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto 10px;
+}
+.nav a {
+    color: #999;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;    
+}
+
+.footer-heading2 {
+    margin-bottom: 10px;
+}
+.designer {
+    font-size: 10px;
+    color: #ccc;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 450px) {
+     .main-header {
+        background-image: url(../img/Bitmap.png); 
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(../img/Bitmap.png);
+        background-repeat: no-repeat;
+        height: 511px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 50px;
+
+     }
+     .login-signup-dream {
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 50px;
+         font-size: 14px;
+     }
+     .dream-share {
+         order: -1;
+         font-size: 18px;
+     }
+     .heading {
+         font-size: 42px;
+         margin-bottom: 15px;
+     }
+     .heading-content {
+         font-size: 21px;
+         margin-bottom: 20px;
+     }
+     .btn {
+         font-size: 13px;
+     }
+
+     /*       tablet main content one styles 
+            =================================*/
+
+     .main-content-one {
+        margin-bottom: 50px;
+     }
+     .content-one-heading {
+         font-size: 22px;
+     }
+     .main-content-one-box {
+         display: flex;
+         justify-content: space-between;
+     }
+     .content-one-heading {
+         font-size: 22px;
+         margin-bottom: 20px;
+     }
+     .content-one-heading {
+        font-weight: bold;
+        line-height: normal;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #444444;
+        
+    }
+    .content-box1, 
+    .content-box2, 
+    .content-box3 {
+        margin-bottom: 0;
+        width: 32%;
+    }
+    .content-box2 {
+        padding: 150px 15px 10px;
+    }
+    .content-box3 {
+        padding: 100px 15px 5px;
+    }
+    .step-three-heading {
+        width: 100%;
+    }
+    .content-box1 {
+        background-image: url(../img/Step-1-image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 4px;
+        text-align: left;
+        padding: 100px 15px 10px;
+    }
+    .step-one {
+        background: #FF4E50;
+        padding: 5px 20px;
+        color: #fff;
+        font-size: 10px;
+        border: 1px solid #FF4E50;
+        border-radius: 40px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .step-one-heading {
+        width: 100%;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 10px;
+        margin-bottom: 30px;
+    }
+    .step-one-content {
+        color: #E3E3E3;
+        font-weight: 300;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 14px;
+    }
+
+
+    /*         main content two        
+             =====================        */
+
+
+    .main-content-two {
+        margin-bottom: 50px;
+    }
+    .socials {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .bradley-hunter, 
+    .diana-wells, 
+    .marie-bennett, 
+    .christopher-pierce {
+        margin-bottom: 0;
+    }
+    .bradley-hunter, 
+    .marie-bennett {
+        margin-bottom: 40px;
+    }
+    .bradley-img, 
+    .diana-img, 
+    .marie-img, 
+    .chris-img {
+        width: 30%;
+        height: 30%;
+    }
+    .brad-bio, 
+    .diana-bio, 
+    .marie-bio, 
+    .chris-bio {
+        font-size: 12px;
+    }
+    .music, 
+    .camera, 
+    .brush, 
+    .plane {
+        right: 34%;
+        bottom: 15%;
+        height: 30%;
+        width: 13%;
+        border-radius: 100%;
+    }
+    .christopher-pierce {
+        
+        margin-bottom: 0;
+    }
+
+    .brad-diana {
+        width: 45%;
+    }
+    .marie-chris {
+        width: 45%;
+    }
+    .main-content2-btn {
+        font-size: 14px;
+        padding: 5px 20px
+    }
+
+    /*      main content three  
+           ======================   */
+
+    .main-content-three {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .content-three-heading {
+        font-size: 22px;
+    }
+    .discovery {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .content-three-box1,
+    .content-three-box2, 
+    .content-three-box3, 
+    .content-three-box4, 
+    .content-three-box5, 
+    .content-three-box6, 
+    .content-three-box7 {
+        height: 220px;
+        width: 30%;
+        background-size: cover;
+        background-position: center;
+    }
+    .sport {
+        width: 100%;
+    }
+    .wellness {
+        width: 90%;
+    }
+    .extreme {
+        font-size: 18px;
+        width: 100%;
+    }
+    .content-three-box5, 
+    .content-three-box6 {
+        width: 65%;
+    }
+
+
+
+
+    /*      page aside styles 
+           =====================    */
+    .page-aside {
+        margin-bottom: 80px;
+    }
+    .aside-heading {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    .aside-content {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .input-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .user-interest {
+        width: 45%;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .aside-btn {
+        padding: 7px 30px;
+        font-size: 12px;
+    }
+    /*     main footer styles
+        ======================== */
+
+
+    .main-footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+}
+
+@media (min-width: 706px) {
+    .heading {
+        font-size: 52px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+/*      desktop styles 
+        ====================== */
+@media (min-width: 750px) {
+    .main-header {
+        padding: 25px 60px;
+        height: 631px;
+        background-image: url(../img/Bitmap.png); 
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(../img/Bitmap.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .dream-share {
+        margin-left: 40px;
+    }
+    .login-signup {
+        margin-right: 40px;
+    }
+    .heading {
+        width: 50%;
+    }
+    
+    .main-content {
+        width: 80%;
+        margin: 0 auto;
+    } 
+  
+    .content-one-heading {
+        margin-bottom: 20px;
+    }
+    .content-box1, 
+    .content-box2, 
+    .content-box3 {
+        height: 400px;
+        display: inline-flex;
+        flex-direction: column;
+       
+        justify-content: flex-end;
+    }
+    .step-one, 
+    .step-two {
+        width: 35%;
+    }
+    .step-one-heading {
+        margin-bottom: 35px;
+    }
+   
+    .content-two-heading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .bradley-hunter, 
+    .diana-wells, 
+    .marie-bennett, 
+    .christopher-pierce {
+        margin-bottom: 0;
+    }
+    .brad-diana, 
+    .marie-chris {
+        display: flex;
+        width: 100%;
+    }
+    .bradley-img, 
+    .diana-img, 
+    .marie-img, 
+    .chris-img {
+        width: 40%;
+        height: 40%;
+        margin-bottom: 0;
+    }
+    .brad-bio, 
+    .diana-bio, 
+    .marie-bio, 
+    .chris-bio {
+        font-size: 11px;
+    }
+    .music, 
+    .camera, 
+    .brush, 
+    .plane {
+        right: 28%;
+        bottom: 10%;
+    }
+    .bradley-hunter, 
+    .diana-wells, 
+    .marie-bennett, 
+    .christopher-pierce {
+        width: 100%;
+    }
+    
+    .content-three-box1,
+    .content-three-box2, 
+    .content-three-box3, 
+    .content-three-box4, 
+    .content-three-box5, 
+    .content-three-box6, 
+    .content-three-box7 {
+        height: 310px;
+        width: 30%;
+        background-size: cover;
+        background-position: center;
+    }
+    .content-three-box5, 
+    .content-three-box6 {
+        width: 65%;
+    }
+    
+
+    .main-footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
